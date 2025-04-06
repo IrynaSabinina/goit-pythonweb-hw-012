@@ -1,0 +1,28 @@
+# Ігноруємо віртуальне середовище
+venv/
+.venv/
+
+# Ігноруємо кеш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ігноруємо файли Poetry
+.pytest_cache/
+.python-version
+
+# Ігноруємо IDE
+.vscode/
+.idea/
+
+# Ігноруємо інші файли
+*.log
+dist/
+build/
+*.egg-info/
+.coverage
+.tox/
+
+.git
+OneDrive
